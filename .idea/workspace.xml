@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d33de37-2633-41ba-b8cb-f1404417b6a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ocr-codelab/ocr-reader-complete/.gradle/4.8.1/fileChanges/last-build.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ocr-codelab/ocr-reader-complete/.gradle/4.8.1/fileContent/fileContent.lock" beforeDir="false" />
