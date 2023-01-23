@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "D:\\repos\\pnrpuNav\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "611,843,844,845,856,857,860",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "31106,47835,47882,47929,48673,48718,48884",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "31143,47877,47924,47971,48713,48758,48921"
+                    }
+                },
+                {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\0d439a4673f4d0da4e67ff4aa28f967a\\transformed\\transition-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -93,20 +110,39 @@
                     }
                 },
                 {
-                    "source": "D:\\repos\\GuidePNRPU\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\repos\\pnrpuNav\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "7,2,3,4,5,6,8",
+                        "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
+                        "startOffsets": "55,199,281,385,494,614,712",
+                        "endColumns": "143,81,103,108,119,97,74",
+                        "endOffsets": "194,276,380,489,609,707,782"
                     },
                     "to": {
-                        "startLines": "611,843,844,845,856,857,860",
+                        "startLines": "1729,1737,1738,1739,1740,1741,1843",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "31106,47835,47882,47929,48673,48718,48884",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "31143,47877,47924,47971,48713,48758,48921"
+                        "startOffsets": "109984,110756,110838,110942,111051,111171,125967",
+                        "endColumns": "143,81,103,108,119,97,74",
+                        "endOffsets": "110123,110833,110937,111046,111166,111264,126037"
+                    }
+                },
+                {
+                    "source": "D:\\repos\\pnrpuNav\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "797"
+                    },
+                    "to": {
+                        "startLines": "6018",
+                        "startColumns": "4",
+                        "startOffsets": "412556",
+                        "endLines": "6030",
+                        "endColumns": "12",
+                        "endOffsets": "413132"
                     }
                 },
                 {
@@ -164,40 +200,6 @@
                         "endLines": "479,1005,1006,1007,1015,1016,1017,1525,11815",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "24097,58532,58580,58636,59322,59398,59470,95515,691665"
-                    }
-                },
-                {
-                    "source": "D:\\repos\\GuidePNRPU\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "16,62",
-                        "endColumns": "45,60",
-                        "endOffsets": "57,118"
-                    },
-                    "to": {
-                        "startLines": "1699,1846",
-                        "startColumns": "4,4",
-                        "startOffsets": "105989,126166",
-                        "endColumns": "45,60",
-                        "endOffsets": "106030,126222"
-                    }
-                },
-                {
-                    "source": "D:\\repos\\GuidePNRPU\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,712",
-                        "endColumns": "143,81,103,108,119,97,74",
-                        "endOffsets": "194,276,380,489,609,707,782"
-                    },
-                    "to": {
-                        "startLines": "1729,1737,1738,1739,1740,1741,1843",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "109984,110756,110838,110942,111051,111171,125967",
-                        "endColumns": "143,81,103,108,119,97,74",
-                        "endOffsets": "110123,110833,110937,111046,111166,111264,126037"
                     }
                 },
                 {
@@ -330,25 +332,6 @@
                     }
                 },
                 {
-                    "source": "D:\\repos\\GuidePNRPU\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "797"
-                    },
-                    "to": {
-                        "startLines": "6018",
-                        "startColumns": "4",
-                        "startOffsets": "412556",
-                        "endLines": "6030",
-                        "endColumns": "12",
-                        "endOffsets": "413132"
-                    }
-                },
-                {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\502dabc266c451a1cd3b89cbc0f2ef4f\\transformed\\fragment-1.3.6\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -382,6 +365,23 @@
                         "startOffsets": "99356,108691",
                         "endColumns": "67,166",
                         "endOffsets": "99419,108853"
+                    }
+                },
+                {
+                    "source": "D:\\repos\\pnrpuNav\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "16,62",
+                        "endColumns": "45,60",
+                        "endOffsets": "57,118"
+                    },
+                    "to": {
+                        "startLines": "1699,1846",
+                        "startColumns": "4,4",
+                        "startOffsets": "105989,126166",
+                        "endColumns": "45,60",
+                        "endOffsets": "106030,126222"
                     }
                 },
                 {

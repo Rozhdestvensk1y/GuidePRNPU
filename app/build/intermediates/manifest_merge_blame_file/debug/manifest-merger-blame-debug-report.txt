@@ -6,17 +6,17 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+8-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+9-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 10
 11    <queries>
-11-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:5:5-9:15
+11-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:5:5-9:15
 12        <intent>
-12-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:6:9-8:18
+12-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:6:9-8:18
 13            <action android:name="android.media.action.IMAGE_CAPTURE" />
-13-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:7:13-73
-13-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:7:21-70
+13-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:7:13-73
+13-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:7:21-70
 14        </intent>
 15        <!-- Needs to be explicitly declared on Android R+ -->
 16        <package android:name="com.google.android.apps.maps" />
@@ -64,27 +64,27 @@
 36-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 37
 38    <application
-38-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:11:5-51:19
+38-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:11:5-51:19
 39        android:allowBackup="true"
-39-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:12:9-35
+39-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:12:9-35
 40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 40-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 41        android:dataExtractionRules="@xml/data_extraction_rules"
-41-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:13:9-65
+41-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:13:9-65
 42        android:debuggable="true"
 43        android:fullBackupContent="@xml/backup_rules"
-43-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:14:9-54
+43-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:14:9-54
 44        android:icon="@mipmap/ic_launcher"
-44-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:15:9-43
+44-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:15:9-43
 45        android:label="@string/app_name"
-45-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:16:9-41
+45-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:16:9-41
 46        android:supportsRtl="true"
-46-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:17:9-35
+46-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:17:9-35
 47        android:testOnly="true"
 48        android:theme="@style/Theme.PnrpuNav"
-48-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:18:9-46
+48-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:18:9-46
 49        android:value="AIzaSyDBRJhFdKPwT8LgmGaPJGUHo6N6zTa8RbU" >
-49-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:19:9-64
+49-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:19:9-64
 50
 51        <!--
 52             TODO: Before you run your application, you need a Google Maps API key.
@@ -99,37 +99,37 @@
 61        -->
 62
 63        <activity
-63-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:34:9-37:59
+63-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:34:9-37:59
 64            android:name="com.example.pnrpunav.MapsActivity"
-64-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:35:13-41
+64-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:35:13-41
 65            android:exported="false"
-65-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:36:13-37
+65-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:36:13-37
 66            android:label="@string/title_activity_maps" />
-66-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:37:13-56
+66-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:37:13-56
 67        <activity
-67-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:38:9-46:20
+67-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:38:9-46:20
 68            android:name="com.example.pnrpunav.MainActivity"
-68-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:39:13-41
+68-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:39:13-41
 69            android:exported="true" >
-69-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:40:13-36
+69-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:40:13-36
 70            <intent-filter>
-70-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:41:13-45:29
+70-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:41:13-45:29
 71                <action android:name="android.intent.action.MAIN" />
-71-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:42:17-69
-71-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:42:25-66
+71-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:42:17-69
+71-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:42:25-66
 72
 73                <category android:name="android.intent.category.LAUNCHER" />
-73-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:44:17-77
-73-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:44:27-74
+73-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:44:17-77
+73-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:44:27-74
 74            </intent-filter>
 75        </activity>
 76
 77        <meta-data
-77-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:48:9-50:35
+77-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:48:9-50:35
 78            android:name="com.google.android.gms.vision.DEPENDENCIES"
-78-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:49:13-70
+78-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:49:13-70
 79            android:value="ocr" />
-79-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:50:13-32
+79-->D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:50:13-32
 80        <!-- Needs to be explicitly declared on P+ -->
 81        <uses-library
 81-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40

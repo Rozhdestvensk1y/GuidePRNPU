@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\6cc4ab5f66b1d5f3a83ab7019fe8067a\transformed\viewbinding-7.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\lenovo\.gradle\caches\transforms-3\a26dfbb686b4cde01f4441e375323b6e\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lenovo\.gradle\caches\transforms-3\33c1d19b5af052b2215a02c692e867b4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -79,37 +79,37 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\18eead00291d752927c381d0d572e519\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\801e8d0c13e41e9fff251b1cae6d69cf\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [org.tensorflow:tensorflow-lite:1.13.1] C:\Users\lenovo\.gradle\caches\transforms-3\4e5fe8bbe1e6afe6a7d76b055007108c\transformed\tensorflow-lite-1.13.1\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:1-53:12
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:2:11-69
 queries
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:5:5-9:15
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:5:5-9:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:6:9-8:18
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:6:9-8:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:7:13-73
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:7:13-73
 	android:name
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:7:21-70
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:7:21-70
 application
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:11:5-51:19
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:11:5-51:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\lenovo\.gradle\caches\transforms-3\a26dfbb686b4cde01f4441e375323b6e\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\lenovo\.gradle\caches\transforms-3\a26dfbb686b4cde01f4441e375323b6e\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\lenovo\.gradle\caches\transforms-3\33c1d19b5af052b2215a02c692e867b4\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -179,57 +179,57 @@ MERGED from [org.tensorflow:tensorflow-lite:1.13.1] C:\Users\lenovo\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:16:9-41
 	android:fullBackupContent
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:14:9-54
 	tools:targetApi
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:20:9-29
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:20:9-29
 	android:icon
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:18:9-46
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:18:9-46
 	android:dataExtractionRules
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:13:9-65
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:13:9-65
 	android:value
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:19:9-64
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:19:9-64
 activity#com.example.pnrpunav.MapsActivity
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:34:9-37:59
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:34:9-37:59
 	android:label
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:37:13-56
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:37:13-56
 	android:exported
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:36:13-37
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:35:13-41
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:35:13-41
 activity#com.example.pnrpunav.MainActivity
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:38:9-46:20
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:38:9-46:20
 	android:exported
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:40:13-36
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:40:13-36
 	android:name
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:39:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:41:13-45:29
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:44:27-74
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:44:27-74
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:48:9-50:35
+ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:48:9-50:35
 	android:value
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:50:13-32
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:50:13-32
 	android:name
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:49:13-70
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml:49:13-70
 uses-sdk
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\6cc4ab5f66b1d5f3a83ab7019fe8067a\transformed\viewbinding-7.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\lenovo\.gradle\caches\transforms-3\6cc4ab5f66b1d5f3a83ab7019fe8067a\transformed\viewbinding-7.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\lenovo\.gradle\caches\transforms-3\a26dfbb686b4cde01f4441e375323b6e\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
@@ -380,16 +380,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\lenovo\
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\801e8d0c13e41e9fff251b1cae6d69cf\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [org.tensorflow:tensorflow-lite:1.13.1] C:\Users\lenovo\.gradle\caches\transforms-3\4e5fe8bbe1e6afe6a7d76b055007108c\transformed\tensorflow-lite-1.13.1\AndroidManifest.xml:5:5-7:41
 MERGED from [org.tensorflow:tensorflow-lite:1.13.1] C:\Users\lenovo\.gradle\caches\transforms-3\4e5fe8bbe1e6afe6a7d76b055007108c\transformed\tensorflow-lite-1.13.1\AndroidManifest.xml:5:5-7:41
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-		ADDED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
-		INJECTED from D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+		ADDED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\pnrpuNav\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\c3c303620c1a601eddb9cc44c8f68188\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:23:5-79
