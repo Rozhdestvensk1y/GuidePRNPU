@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.pnrpunav.app-mergeDebugResources-33:/layout/activity_maps.xml",
+        "source": "com.example.pnrpunav.app-main-36:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.example.pnrpunav.app-mergeDebugResources-33:/layout/activity_main.xml",
+        "source": "com.example.pnrpunav.app-main-36:/layout/activity_main.xml"
+    }
+]

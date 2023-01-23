@@ -1,0 +1,272 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pnrpunav"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:5:5-9:15
+12        <intent>
+12-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:6:9-8:18
+13            <action android:name="android.media.action.IMAGE_CAPTURE" />
+13-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:7:13-73
+13-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:7:21-70
+14        </intent>
+15        <!-- Needs to be explicitly declared on Android R+ -->
+16        <package android:name="com.google.android.apps.maps" />
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+17    </queries>
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+26
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\c3c303620c1a601eddb9cc44c8f68188\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+27-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\c3c303620c1a601eddb9cc44c8f68188\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+28    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\c3c303620c1a601eddb9cc44c8f68188\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+28-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\c3c303620c1a601eddb9cc44c8f68188\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+30-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+31
+32    <permission
+32-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.pnrpunav.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.pnrpunav.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:11:5-51:19
+39        android:allowBackup="true"
+39-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:12:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\362cbd293a403b1c188dded7a0ae129d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:13:9-65
+42        android:debuggable="true"
+43        android:fullBackupContent="@xml/backup_rules"
+43-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:14:9-54
+44        android:icon="@mipmap/ic_launcher"
+44-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:15:9-43
+45        android:label="@string/app_name"
+45-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:16:9-41
+46        android:supportsRtl="true"
+46-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:17:9-35
+47        android:testOnly="true"
+48        android:theme="@style/Theme.PnrpuNav"
+48-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:18:9-46
+49        android:value="AIzaSyDBRJhFdKPwT8LgmGaPJGUHo6N6zTa8RbU" >
+49-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:19:9-64
+50
+51        <!--
+52             TODO: Before you run your application, you need a Google Maps API key.
+53
+54             To get one, follow the directions here:
+55
+56                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+57
+58             Once you have your API key (it starts with "AIza"), define a new property in your
+59             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+60             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+61        -->
+62
+63        <activity
+63-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:34:9-37:59
+64            android:name="com.example.pnrpunav.MapsActivity"
+64-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:35:13-41
+65            android:exported="false"
+65-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:36:13-37
+66            android:label="@string/title_activity_maps" />
+66-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:37:13-56
+67        <activity
+67-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:38:9-46:20
+68            android:name="com.example.pnrpunav.MainActivity"
+68-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:39:13-41
+69            android:exported="true" >
+69-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:40:13-36
+70            <intent-filter>
+70-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:41:13-45:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:42:17-69
+71-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:42:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:44:17-77
+73-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:44:27-74
+74            </intent-filter>
+75        </activity>
+76
+77        <meta-data
+77-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:48:9-50:35
+78            android:name="com.google.android.gms.vision.DEPENDENCIES"
+78-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:49:13-70
+79            android:value="ocr" />
+79-->D:\repos\GuidePNRPU\app\src\main\AndroidManifest.xml:50:13-32
+80        <!-- Needs to be explicitly declared on P+ -->
+81        <uses-library
+81-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+82            android:name="org.apache.http.legacy"
+82-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+83            android:required="false" />
+83-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\4153dd048646f4b89717e8af5385a61c\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+84
+85        <service
+85-->[com.google.firebase:firebase-ml-common:20.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\056dbfc27a51c0d6c612f30e680be9c5\transformed\firebase-ml-common-20.0.1\AndroidManifest.xml:8:9-14:19
+86            android:name="com.google.firebase.components.ComponentDiscoveryService"
+86-->[com.google.firebase:firebase-ml-common:20.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\056dbfc27a51c0d6c612f30e680be9c5\transformed\firebase-ml-common-20.0.1\AndroidManifest.xml:9:13-84
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:20.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\1105f01deb7c6102a06b169ada3dd5f3\transformed\firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-ml-common:20.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\056dbfc27a51c0d6c612f30e680be9c5\transformed\firebase-ml-common-20.0.1\AndroidManifest.xml:10:13-37
+89            <meta-data
+89-->[com.google.firebase:firebase-ml-common:20.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\056dbfc27a51c0d6c612f30e680be9c5\transformed\firebase-ml-common-20.0.1\AndroidManifest.xml:11:13-13:85
+90                android:name="com.google.firebase.components:com.google.firebase.ml.common.internal.CommonComponentRegistrar"
+90-->[com.google.firebase:firebase-ml-common:20.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\056dbfc27a51c0d6c612f30e680be9c5\transformed\firebase-ml-common-20.0.1\AndroidManifest.xml:12:17-126
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-ml-common:20.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\056dbfc27a51c0d6c612f30e680be9c5\transformed\firebase-ml-common-20.0.1\AndroidManifest.xml:13:17-82
+92            <meta-data
+92-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\c3c303620c1a601eddb9cc44c8f68188\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+93                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+93-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\c3c303620c1a601eddb9cc44c8f68188\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\c3c303620c1a601eddb9cc44c8f68188\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+96                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+96-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\5a042098ea638e30e698e12f534b73db\transformed\firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+99                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+99-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\5a042098ea638e30e698e12f534b73db\transformed\firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\5a042098ea638e30e698e12f534b73db\transformed\firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+101        </service>
+102
+103        <receiver
+103-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+104            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+104-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+105            android:exported="true"
+105-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+106            android:permission="com.google.android.c2dm.permission.SEND" >
+106-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+107            <intent-filter>
+107-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+108                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+108-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+108-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\lenovo\.gradle\caches\transforms-3\8703d1aae5cb2fe4e2677d4e1d5c93c2\transformed\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+109            </intent-filter>
+110        </receiver>
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:20.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\1105f01deb7c6102a06b169ada3dd5f3\transformed\firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:20.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\1105f01deb7c6102a06b169ada3dd5f3\transformed\firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+114            android:authorities="com.example.pnrpunav.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:20.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\1105f01deb7c6102a06b169ada3dd5f3\transformed\firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\1105f01deb7c6102a06b169ada3dd5f3\transformed\firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+116            android:exported="false"
+116-->[com.google.firebase:firebase-common:20.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\1105f01deb7c6102a06b169ada3dd5f3\transformed\firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+117            android:initOrder="100" />
+117-->[com.google.firebase:firebase-common:20.3.0] C:\Users\lenovo\.gradle\caches\transforms-3\1105f01deb7c6102a06b169ada3dd5f3\transformed\firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\9f68d072b3b4eaa74fe5489215639b4c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\9f68d072b3b4eaa74fe5489215639b4c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\9f68d072b3b4eaa74fe5489215639b4c\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\lenovo\.gradle\caches\transforms-3\9f68d072b3b4eaa74fe5489215639b4c\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+123
+124        <receiver
+124-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+125            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+125-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+127            android:exported="false" >
+127-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+128        </receiver>
+129
+130        <service
+130-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+131            android:name="com.google.android.gms.measurement.AppMeasurementService"
+131-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+133            android:exported="false" />
+133-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+134        <service
+134-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+135            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+135-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\90ca47ae2854a12d5f5613ca665b14ac\transformed\play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+139
+140        <meta-data
+140-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\52541131c3e3209920a6c1cb739f4065\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+141            android:name="com.google.android.gms.version"
+141-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\52541131c3e3209920a6c1cb739f4065\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+142            android:value="@integer/google_play_services_version" />
+142-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\lenovo\.gradle\caches\transforms-3\52541131c3e3209920a6c1cb739f4065\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+143
+144        <provider
+144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\4eda5cb396df59dc893af96a6c83bd01\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+145            android:name="androidx.startup.InitializationProvider"
+145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\4eda5cb396df59dc893af96a6c83bd01\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+146            android:authorities="com.example.pnrpunav.androidx-startup"
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\4eda5cb396df59dc893af96a6c83bd01\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+147            android:exported="false" >
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\4eda5cb396df59dc893af96a6c83bd01\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+148            <meta-data
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\4eda5cb396df59dc893af96a6c83bd01\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+149                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+149-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\4eda5cb396df59dc893af96a6c83bd01\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+150                android:value="androidx.startup" />
+150-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\4eda5cb396df59dc893af96a6c83bd01\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+151            <meta-data
+151-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenovo\.gradle\caches\transforms-3\69d69d27b66c0f524d8ba3fc95747712\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+152                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+152-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenovo\.gradle\caches\transforms-3\69d69d27b66c0f524d8ba3fc95747712\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+153                android:value="androidx.startup" />
+153-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenovo\.gradle\caches\transforms-3\69d69d27b66c0f524d8ba3fc95747712\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+154        </provider>
+155    </application>
+156
+157</manifest>
