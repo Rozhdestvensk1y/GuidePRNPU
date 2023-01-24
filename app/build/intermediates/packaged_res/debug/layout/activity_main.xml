@@ -6,10 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:id="@+id/setLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#A6BFBD"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Language"
+            android:textSize="26dp"
+            android:textColor="@color/white"/>
+
+        <Spinner
+            android:id="@+id/toLang"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="3dp" />
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:layout_height="400dp" />
+        android:layout_height="300dp"
+        android:layout_below="@+id/setLang"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:id="@+id/text_display"
@@ -20,7 +51,19 @@
         android:textSize="26dp"
         android:maxLines="5"
         android:layout_margin="10dp"
-        android:textColor="@color/purple_700"
+        android:background="#A6BFBD"
+        />
+
+    <TextView
+        android:id="@+id/translatedTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translated text will be here"
+        android:layout_below="@+id/text_display"
+        android:textSize="26dp"
+        android:maxLines="5"
+        android:layout_margin="10dp"
+        android:background="#A6BFBD"
         />
 
     <Button
@@ -32,15 +75,25 @@
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="17dp"
-        android:layout_marginBottom="10dp"
         />
 
     <Button
         android:id="@+id/detect_text_image_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/translateBtn"
         android:text="Detect Text"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        />
+
+    <Button
+        android:id="@+id/translateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Translate"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="17dp"

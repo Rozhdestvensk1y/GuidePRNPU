@@ -6,7 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -31,16 +33,33 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final LinearLayout setLang;
+
+  @NonNull
   public final TextView textDisplay;
+
+  @NonNull
+  public final Spinner toLang;
+
+  @NonNull
+  public final Button translateBtn;
+
+  @NonNull
+  public final TextView translatedTxt;
 
   private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button captureImageBtn,
       @NonNull Button detectTextImageBtn, @NonNull ImageView imageView,
-      @NonNull TextView textDisplay) {
+      @NonNull LinearLayout setLang, @NonNull TextView textDisplay, @NonNull Spinner toLang,
+      @NonNull Button translateBtn, @NonNull TextView translatedTxt) {
     this.rootView = rootView;
     this.captureImageBtn = captureImageBtn;
     this.detectTextImageBtn = detectTextImageBtn;
     this.imageView = imageView;
+    this.setLang = setLang;
     this.textDisplay = textDisplay;
+    this.toLang = toLang;
+    this.translateBtn = translateBtn;
+    this.translatedTxt = translatedTxt;
   }
 
   @Override
@@ -88,14 +107,38 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.setLang;
+      LinearLayout setLang = ViewBindings.findChildViewById(rootView, id);
+      if (setLang == null) {
+        break missingId;
+      }
+
       id = R.id.text_display;
       TextView textDisplay = ViewBindings.findChildViewById(rootView, id);
       if (textDisplay == null) {
         break missingId;
       }
 
+      id = R.id.toLang;
+      Spinner toLang = ViewBindings.findChildViewById(rootView, id);
+      if (toLang == null) {
+        break missingId;
+      }
+
+      id = R.id.translateBtn;
+      Button translateBtn = ViewBindings.findChildViewById(rootView, id);
+      if (translateBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.translatedTxt;
+      TextView translatedTxt = ViewBindings.findChildViewById(rootView, id);
+      if (translatedTxt == null) {
+        break missingId;
+      }
+
       return new ActivityMainBinding((RelativeLayout) rootView, captureImageBtn, detectTextImageBtn,
-          imageView, textDisplay);
+          imageView, setLang, textDisplay, toLang, translateBtn, translatedTxt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\ed85bd3900436b5e473b09815494a887\\transformed\\jetified-play-services-basement-18.0.0\\res\\values-mr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "138",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4361",
+                        "endColumns": "142",
+                        "endOffsets": "4499"
+                    }
+                },
+                {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\362cbd293a403b1c188dded7a0ae129d\\transformed\\core-1.9.0\\res\\values-mr\\values-mr.xml",
                     "from": {
                         "startLines": "2",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\9f68d072b3b4eaa74fe5489215639b4c\\transformed\\play-services-base-18.0.1\\res\\values-mr\\values.xml",
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\b36b5f5f59c95bd1ceb74742aa5c6cca\\transformed\\jetified-play-services-base-18.0.1\\res\\values-mr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -71,23 +88,6 @@
                         "endLines": "5,33,34,35,36,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107",
                         "endColumns": "12,82,99,115,81,62,90,64,58,87,61,59,66,62,53,113,56,60,53,69,118,80,84,134,76,76,85,55,51,65,69,77,86,69,75,70,68,95,73,97,95,73,69,101,54,66,86,92,62,63,62,99,102,93,103,59,55,77",
                         "endOffsets": "304,3077,3177,3293,3375,5597,5688,5753,5812,5900,5962,6022,6089,6152,6206,6320,6377,6438,6492,6562,6681,6762,6847,6982,7059,7136,7222,7278,7330,7396,7466,7544,7631,7701,7777,7848,7917,8013,8087,8185,8281,8355,8425,8527,8582,8649,8736,8829,8892,8956,9019,9119,9222,9316,9420,9480,9536,9614"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\52541131c3e3209920a6c1cb739f4065\\transformed\\play-services-basement-18.1.0\\res\\values-mr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "138",
-                        "endOffsets": "333"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4361",
-                        "endColumns": "142",
-                        "endOffsets": "4499"
                     }
                 }
             ]

@@ -1,10 +1,18 @@
 [
     {
-        "merged": "com.example.pnrpunav.app-mergeDebugResources-33:/layout/activity_maps.xml",
-        "source": "com.example.pnrpunav.app-main-36:/layout/activity_maps.xml"
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.example.pnrpunav.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.example.pnrpunav.app-main-36:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.example.pnrpunav.app-mergeDebugResources-33:\\layout\\spinner_item.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.example.pnrpunav.app-main-36:\\layout\\spinner_item.xml"
     },
     {
         "merged": "com.example.pnrpunav.app-mergeDebugResources-33:/layout/activity_main.xml",
         "source": "com.example.pnrpunav.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.example.pnrpunav.app-mergeDebugResources-33:\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\lenovo\\.gradle\\daemon\\7.5\\com.example.pnrpunav.app-main-36:\\layout\\activity_maps.xml"
     }
 ]

@@ -13,11 +13,15 @@ id capture_image_btn
 id detect_text_image_btn
 id image_view
 id map
+id setLang
 id text_display
+id toLang
+id translateBtn
+id translatedTxt
 layout activity_main
 layout activity_maps
+layout spinner_item
 mipmap ic_launcher
-mipmap ic_launcher_round
 string app_name
 string default_web_client_id
 string gcm_defaultSenderId

@@ -3082,6 +3082,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id setLang
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3156,6 +3157,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toLang
 id toggle
 id top
 id topPanel
@@ -3167,6 +3169,8 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id translateBtn
+id translatedTxt
 id triangle
 id unchecked
 id uniform
@@ -3390,11 +3394,11 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spinner_item
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
-mipmap ic_launcher_round
 plurals mtrl_badge_content_description
-raw firebase_common_keep
+raw translate_models_metadata
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4770,3 +4774,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml rapid_response_client_defaults
