@@ -20,6 +20,12 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -34,8 +40,14 @@ import com.google.firebase.ml.vision.text.FirebaseVisionCloudTextRecognizerOptio
 import com.google.firebase.ml.vision.text.FirebaseVisionText;
 import com.google.firebase.ml.vision.text.FirebaseVisionTextRecognizer;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Iterator;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -43,6 +55,7 @@ public class MainActivity extends AppCompatActivity
     private ImageView imageView;
     private TextView textView, translatedText;
     static final int REQUEST_IMAGE_CAPTURE = 1;
+    private static final String filePath = "https://disk.yandex.ru/d/bPyHyXQdI_rsEA";
     private Bitmap imageBitmap;
     private Spinner toLang;
 
@@ -87,7 +100,7 @@ public class MainActivity extends AppCompatActivity
         detectTextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                detectTextFromImage();
+                jsonRead();
             }
         });
 
@@ -189,7 +202,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    private void detectTextFromImage()
+    private void detectTextFromImage(String[] arr)
     {
         FirebaseVisionImage firebaseVisionImage = FirebaseVisionImage.fromBitmap(imageBitmap);
         //FirebaseVisionCloudTextRecognizerOptions options = new FirebaseVisionCloudTextRecognizerOptions.Builder()
@@ -203,15 +216,15 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onSuccess(FirebaseVisionText firebaseVisionText) {
                 // Task completed successfully
-                // ...
                 for (FirebaseVisionText.TextBlock block : firebaseVisionText.getTextBlocks()) {
                     Rect boundingBox = block.getBoundingBox();
                     Point[] cornerPoints = block.getCornerPoints();
                     String text = block.getText();
-                    if (text.contains("405"))
-                        text = "Привет мир и так далее. Я пошел";
+                    for(int i = 0; i < arr.length; i++){
+                        if (arr[i].contains(text))
+                            textView.setText(arr[i]);
+                    }
                     Log.d("Text", text);
-                    textView.setText(text);
                     for (FirebaseVisionText.Line line: block.getLines()) {
                         // ...
                         for (FirebaseVisionText.Element element: line.getElements()) {
@@ -227,5 +240,45 @@ public class MainActivity extends AppCompatActivity
                 Log.d("Error: ", e.getMessage());
             }
         });
+    }
+    public void jsonRead ()
+    {
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url ="https://raw.githubusercontent.com/Rozhdestvensk1y/GuidePRNPU/main/app/A.json";
+
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        //Toast.makeText(getApplicationContext(), "Response: " + response,Toast.LENGTH_SHORT).show();
+                        parseJson(response);
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                textView.setText("That didn't work!");
+            }
+        });
+
+        queue.add(stringRequest);
+    }
+    public void parseJson(String response)
+    {
+        try {
+            JSONObject jsonObject = new JSONObject(response);
+            JSONArray jsonArray = jsonObject.getJSONArray("A");
+            String[] arr = new String[jsonArray.length()];
+            String number, text;
+            for (int i = 0; i < jsonArray.length(); i++){
+                JSONObject object = jsonArray.getJSONObject(i);
+                number = object.getString("number");
+                text = object.getString("text");
+                arr[i] = number + ": " + text;
+                Log.d("JSON", arr[i]);
+            }
+            detectTextFromImage(arr);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 }
